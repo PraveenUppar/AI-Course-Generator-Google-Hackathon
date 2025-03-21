@@ -1,1 +1,1 @@
-# AI-Course-Generator---Google-Hackathon
+# AI-Course-Generator-Google-Hackathon
