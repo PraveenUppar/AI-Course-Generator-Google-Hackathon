@@ -8,13 +8,14 @@ function AddCourse() {
     const {user} = useUser()
   return (
     <div className='flex item-center justify-between'>
-    <div>
-        <h2 className='text-3xl'>Hello, User
+      <div>
+      <h2 className='text-3xl'>Hello, User
         <span className='font-bold'>{user?.fullName}</span>
-        </h2> 
-    </div>
-    <Link href={"/create-course"}>    <Button>Create new course</Button>
-</Link>
+      </h2>
+      </div>
+    <Link href={"/create-course"}>
+      <Button>Create new course</Button>
+    </Link>
     </div>
   )
 }
