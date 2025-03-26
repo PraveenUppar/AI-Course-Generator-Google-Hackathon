@@ -1,0 +1,1 @@
+Genereate a course tutorial on the following detials with feild as course name ,description,along with chapter name,about,duration in json format

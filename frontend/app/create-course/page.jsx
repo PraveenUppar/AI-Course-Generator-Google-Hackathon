@@ -39,7 +39,7 @@ function CreateCourse() {
         <h2 className="text-4xl font-medium">Create Course</h2>
         <div className="flex mt-10">
           {StepperOptions.map((item, index) => (
-            <div className="flex items-center ">
+            <div>
               <div className="flex flex-col items-center w-[50px] md:w-[100px]">
                 <div
                   className={`bg-gray-200 p-3 rounded-full ${
